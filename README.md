@@ -3,7 +3,7 @@
 steps to install robot operating system on m1 mac using multipass
 
 
-1. install multipass https://multipass.run/https://multipass.run/
+### 1. install multipass https://multipass.run/https://multipass.run/
 
 to read more about multipass https://multipass.run/docs
 
