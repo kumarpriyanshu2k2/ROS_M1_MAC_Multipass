@@ -9,7 +9,7 @@ to read more: [multipass Docs](https://multipass.run/docs)
 
 ### 2. after installing multipass start a ubuntu instance in terminal.
 
-    $ multipass launch -n ros-neotic --disk 15G 20.04
+    $ multipass launch -n ros-neotic --mem 3G --disk 15G 20.04
 
 you can check the status of your instance using $ multipass info ros-neotic
 
