@@ -64,7 +64,7 @@ you can check the status of your instance using $ multipass info ros-neotic
 
 2. Obtain the ip address of your instance by running the command in your system terminal
 
-    $ multipass info ros-neotic
+        $ multipass info ros-neotic
 
 ![Screenshot 2022-05-20 at 8 29 26 PM](https://user-images.githubusercontent.com/93030904/169558171-db383a93-a9f6-46e8-906b-26330291a1be.jpg)
 
