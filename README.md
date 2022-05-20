@@ -50,6 +50,46 @@ you can check the status of your instance using $ multipass info ros-neotic
     $ sudo rosdep init
     $ rosdep update
     
+### 10. setup graphic desktop(optional)
+
+    $ multipass shell ros-neotic
+    $ sudo apt update
+    $ sudo apt install ubuntu-desktop xrdp
+    # setup password for your account
+    $ sudo passwd ubuntu
+    # enter your password twice
+1. next you'll need to install parallels client from app store
+
+![Screenshot 2022-05-20 at 8 26 34 PM](https://user-images.githubusercontent.com/93030904/169555511-302c7c25-f616-4932-ae98-02541b897807.jpg)
+
+2. Obtain the ip address of your instance by running the command in your system terminal
+
+    $ multipass info ros-neotic
+
+![Screenshot 2022-05-20 at 8 29 26 PM](https://user-images.githubusercontent.com/93030904/169558171-db383a93-a9f6-46e8-906b-26330291a1be.jpg)
+
+
+3. click on file>new connection if you don't get a prompt 
+
+![Screenshot 2022-05-20 at 8 27 32 PM](https://user-images.githubusercontent.com/93030904/169555853-c3f095e8-eb19-4bf4-ab2a-4c84a9dd6b65.jpg)
+
+4. create a standard RDP
+
+![Screenshot 2022-05-20 at 8 32 09 PM](https://user-images.githubusercontent.com/93030904/169556586-282f1253-605e-4ae2-bbb1-228115ea2eb9.jpg)
+
+5. Enter your instances ip address in the server
+
+![image](https://user-images.githubusercontent.com/93030904/169557482-f60ddc63-3811-4d57-b7d9-820453c8c2a1.png)
+
+6. login into your instance using the password you created
+
+![Screenshot 2022-05-20 at 8 34 46 PM](https://user-images.githubusercontent.com/93030904/169557648-204b68bd-b088-4549-980f-da6ec68c1c93.jpg)
+
+now you can access the gui of your instance
+
+![Screenshot 2022-05-20 at 8 39 45 PM](https://user-images.githubusercontent.com/93030904/169557983-558efc6e-3ac2-4ad3-aba3-2681ae7c7d33.jpg)
+
+
 ## All done ! 🥳🎉
 
 to test if it is working properly visit [ROS Tutorials](http://wiki.ros.org/ROS/Tutorials) 
