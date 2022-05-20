@@ -69,7 +69,7 @@ you can check the status of your instance using $ multipass info ros-neotic
 ![Screenshot 2022-05-20 at 8 29 26 PM](https://user-images.githubusercontent.com/93030904/169558171-db383a93-a9f6-46e8-906b-26330291a1be.jpg)
 
 
-3. click on file>new connection if you don't get a prompt 
+3. open parallels client and click on file>new connection if you don't get a prompt 
 
 ![Screenshot 2022-05-20 at 8 27 32 PM](https://user-images.githubusercontent.com/93030904/169555853-c3f095e8-eb19-4bf4-ab2a-4c84a9dd6b65.jpg)
 
@@ -77,11 +77,11 @@ you can check the status of your instance using $ multipass info ros-neotic
 
 ![Screenshot 2022-05-20 at 8 32 09 PM](https://user-images.githubusercontent.com/93030904/169556586-282f1253-605e-4ae2-bbb1-228115ea2eb9.jpg)
 
-5. Enter your instances ip address in the server
+5. Enter your instance's ip address in the server field
 
 ![image](https://user-images.githubusercontent.com/93030904/169557482-f60ddc63-3811-4d57-b7d9-820453c8c2a1.png)
 
-6. login into your instance using the password you created
+6. login into your instance using the password you created in your instance
 
 ![Screenshot 2022-05-20 at 8 34 46 PM](https://user-images.githubusercontent.com/93030904/169557648-204b68bd-b088-4549-980f-da6ec68c1c93.jpg)
 
